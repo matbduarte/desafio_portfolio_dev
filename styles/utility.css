@@ -21,7 +21,6 @@
 
 .text-sm {
   font: var(--text-sm);
-  color: var(--base-color-gray-300);
 }
 
 .color-red {
@@ -34,4 +33,8 @@
 
 .color-gray-200 {
   color: var(--base-color-gray-200);
+}
+
+.color-gray-300 {
+  color: var(--base-color-gray-300);
 }
