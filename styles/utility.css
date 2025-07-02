@@ -13,7 +13,6 @@
 
 .text-subtitle {
   font: var(--subtitle);
-  color: var(--base-color-gray-100);
 }
 
 .text-md {
@@ -27,4 +26,12 @@
 
 .color-red {
   color: var(--principal-color-red);
+}
+
+.color-gray-100 {
+  color: var(--base-color-gray-100);
+}
+
+.color-gray-200 {
+  color: var(--base-color-gray-200);
 }
