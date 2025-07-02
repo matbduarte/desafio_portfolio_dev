@@ -1,75 +1,59 @@
 .intro {
-    background-image: url(../assets/images/Background_Intro.png);
-    background-size: cover;
-    height: 720px;
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+  height: 750px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-.profile-img {
+  .profile-img img {
     margin-top: 120px;
-    img {
-        width: 112px;
-        aspect-ratio: 1/1;
-        object-fit: cover;
-        border-radius: 50%;
-        border: 2px red solid;
-    }
-}
+    padding: 4px;
+    width: 112px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px red solid;
+  }
 
-.description {
+  .description {
     width: 680px;
     text-align: center;
 
     p:nth-child(1) {
-        margin-top: 56px;
-        margin-bottom: 8px;
+      margin-top: 56px;
+      margin-bottom: 8px;
     }
 
     p:nth-child(2) {
-        margin-bottom: 20px;
+      margin-bottom: 20px;
     }
-}
+  }
 
-.tags {
+  .tags {
     margin-top: 80px;
     margin-bottom: 94px;
 
     .content-tag {
-        display: inline-block;
-        background-color: var(--base-color-gray-400);
-        padding: 8px 16px;
-        border-radius: 20px;
-        font: var(--text-md);
-        color: var(--base-color-gray-200);
-        margin-right: 16px;
+      display: inline-flex;
+      align-items: center;
+      background-color: var(--base-color-gray-400);
+      padding: 8px 16px;
+      border-radius: 20px;
+      font: var(--text-md);
+      color: var(--base-color-gray-200);
+      margin-right: 16px;
 
-        img {
-            margin-right: 8px;
-            width: 24px;
-            height: 24px;
-        }
+      img {
+        margin-right: 8px;
+        width: 24px;
+        height: 24px;
+      }
     }
-}
+  }
 
-.caret-down {
-    width: 32px;
-    height: 32px;
-    
-    img {
-        background-color: aliceblue;
-        color: var(--base-color-gray-300);
-    }
-}
-
-.caret-down2 {
-    
-    
-    span {
-        width: 32px;
-        height: 32px;
-        background-image: url(../assets/icons/caret-double-down.svg);
-    }
+  svg {
+    fill: var(--base-color-gray-300)
+  }
 }
