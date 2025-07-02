@@ -27,6 +27,14 @@
   color: var(--principal-color-red);
 }
 
+.color-purple {
+  color: var(--principal-color-purple);
+}
+
+.color-blue {
+  color: var(--principal-color-blue);
+}
+
 .color-gray-100 {
   color: var(--base-color-gray-100);
 }
